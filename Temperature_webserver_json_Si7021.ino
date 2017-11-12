@@ -1,7 +1,8 @@
 /*
  * 
  * A network connected temperature sensor!
- * Uses an Arduino Ethernet Shield and a QTechKnow temperature sensor
+ * Uses an Arduino Ethernet Shield and a Si7021 temperature sensor. 
+ * This sensor gets much more accurate data than the QTechKnow sensor
  * 
  * Responds to GET requests with the temperature data in JSON format.
  * POSTs the current readings to an InfluxDB server once a minute.
